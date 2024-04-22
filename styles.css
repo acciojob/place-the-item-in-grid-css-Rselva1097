@@ -1,12 +1,13 @@
+ .holder {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        width: 200px;
+        height: 200px;
+    }
 
-/* Your CSS Code here. */
-.holder{
-	display:grid;
-	grid-template-columns:repeat(2,200px);
-	grid-template-rows:repeat(2,200px);
-	gap:2px 2px;
-}
-
-.item{
-	background-color:red;
-}
+    .item {
+        border: 1px solid black;
+        padding: 10px;
+        text-align: center;
+    }
